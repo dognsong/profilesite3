@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background: $color-primary;
+    position: relative;
+
+    #header_logo{
+        position: absolute;
+        left: 50%; 
+        margin-left: -100px;
+        top: 50%;
+        margin-top: -100px;
+
+        &_text{
+            font-size: 3.2rem;
+            font-weight: 700;
+            color: $color-white; 
+            margin-top: 20px;
+        }
+    }
+
+    #header_continue{
+        width:120px;
+        position: absolute;
+        left: 50%; 
+        margin: -60px;
+        bottom: 130px;
+
+        &_text{
+            text-align: center;
+            color: $color-white;
+            font-size: 2.1rem;
+            font-weight: 100;
+        }
+        &_bar{
+            width: 1px;
+            height: 50px; 
+            margin-top: 20px;
+            position: absolute; 
+            left: 50%;
+            background: $color-white;
+        }
+    }
+}
